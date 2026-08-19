@@ -104,7 +104,7 @@ if [[ ! -e "$TARGET/openspec/roadmaps/README.md" ]]; then
   cp "$PACK_ROOT/templates/openspec/roadmaps/README.md" "$TARGET/openspec/roadmaps/README.md"
 fi
 
-REPO="$(git -C "$PACK_ROOT" remote get-url origin 2>/dev/null || echo "adammaser/openspec-roadmaps")"
+REPO="$(git -C "$PACK_ROOT" remote get-url origin 2>/dev/null || echo "acmaser12/openspec-roadmaps")"
 COMMIT="$(git -C "$PACK_ROOT" rev-parse HEAD 2>/dev/null || echo "uncommitted")"
 INSTALLED="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
 cat > "$TARGET/.agent-shared/openspec-roadmaps.source" <<EOF

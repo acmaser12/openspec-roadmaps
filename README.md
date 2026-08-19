@@ -9,7 +9,7 @@ This pack does not replace OpenSpec. Each phase still becomes a normal OpenSpec 
 This repository is private, so install from a local clone:
 
 ```bash
-git clone git@github.com:adammaser/openspec-roadmaps.git ~/dev/openspec-roadmaps
+git clone git@github.com:acmaser12/openspec-roadmaps.git ~/dev/openspec-roadmaps
 cd /path/to/openspec-project
 ~/dev/openspec-roadmaps/install.sh
 ```
